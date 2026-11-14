@@ -1,0 +1,2988 @@
+{
+  "version": 1,
+  "source_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+  "license": "USDA CC0 1.0",
+  "note": "通用条目与份量模型估算，不代表具体品牌或餐厅实测；生熟状态见名称。",
+  "foods": [
+    {
+      "id": "rice",
+      "name": "米饭（熟）",
+      "category": "staple",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一碗",
+          "grams": 150
+        },
+        {
+          "label": "半碗",
+          "grams": 75.0
+        }
+      ],
+      "fdc_id": "168878",
+      "description": "Rice, white, long-grain, regular, enriched, cooked",
+      "source": "USDA FoodData Central / SR Legacy / FDC 168878",
+      "nutrients": {
+        "protein": 2.69,
+        "fat": 0.28,
+        "carbs": 28.17,
+        "kcal": 130.0
+      }
+    },
+    {
+      "id": "brownrice",
+      "name": "糙米饭（熟）",
+      "category": "staple",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一碗",
+          "grams": 150
+        },
+        {
+          "label": "半碗",
+          "grams": 75.0
+        }
+      ],
+      "fdc_id": "169704",
+      "description": "Rice, brown, long-grain, cooked (Includes foods for USDA's Food Distribution Program)",
+      "source": "USDA FoodData Central / SR Legacy / FDC 169704",
+      "nutrients": {
+        "protein": 2.74,
+        "fat": 0.97,
+        "carbs": 25.58,
+        "kcal": 123.0
+      }
+    },
+    {
+      "id": "oats",
+      "name": "燕麦片（干重）",
+      "category": "staple",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 40
+        },
+        {
+          "label": "半份",
+          "grams": 20.0
+        }
+      ],
+      "fdc_id": "169705",
+      "description": "Oats (Includes foods for USDA's Food Distribution Program)",
+      "source": "USDA FoodData Central / SR Legacy / FDC 169705",
+      "nutrients": {
+        "protein": 16.89,
+        "fat": 6.9,
+        "carbs": 66.27,
+        "kcal": 389.0
+      }
+    },
+    {
+      "id": "bread",
+      "name": "全麦面包",
+      "category": "staple",
+      "tags": [
+        "小麦",
+        "麸质"
+      ],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一片",
+          "grams": 30
+        },
+        {
+          "label": "半片",
+          "grams": 15.0
+        }
+      ],
+      "fdc_id": "172688",
+      "description": "Bread, whole-wheat, commercially prepared",
+      "source": "USDA FoodData Central / SR Legacy / FDC 172688",
+      "nutrients": {
+        "fat": 3.5,
+        "carbs": 42.71,
+        "kcal": 252.0,
+        "protein": 12.45
+      }
+    },
+    {
+      "id": "noodles",
+      "name": "小麦面条（熟；按意面近似）",
+      "category": "staple",
+      "tags": [
+        "小麦",
+        "麸质"
+      ],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一碗",
+          "grams": 180
+        },
+        {
+          "label": "半碗",
+          "grams": 90.0
+        }
+      ],
+      "fdc_id": "169737",
+      "description": "Pasta, cooked, enriched, without added salt",
+      "source": "USDA FoodData Central / SR Legacy / FDC 169737",
+      "nutrients": {
+        "fat": 0.93,
+        "protein": 5.8,
+        "carbs": 30.86,
+        "kcal": 158.0
+      }
+    },
+    {
+      "id": "corn",
+      "name": "甜玉米粒（熟）",
+      "category": "staple",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 150
+        },
+        {
+          "label": "半份",
+          "grams": 75.0
+        }
+      ],
+      "fdc_id": "169999",
+      "description": "Corn, sweet, yellow, cooked, boiled, drained, without salt",
+      "source": "USDA FoodData Central / SR Legacy / FDC 169999",
+      "nutrients": {
+        "fat": 1.5,
+        "carbs": 20.98,
+        "kcal": 96.0,
+        "protein": 3.41
+      }
+    },
+    {
+      "id": "potato",
+      "name": "土豆（熟）",
+      "category": "staple",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 150
+        },
+        {
+          "label": "半份",
+          "grams": 75.0
+        }
+      ],
+      "fdc_id": "170440",
+      "description": "Potatoes, boiled, cooked without skin, flesh, without salt",
+      "source": "USDA FoodData Central / SR Legacy / FDC 170440",
+      "nutrients": {
+        "carbs": 20.01,
+        "kcal": 86.0,
+        "fat": 0.1,
+        "protein": 1.71
+      }
+    },
+    {
+      "id": "sweetpotato",
+      "name": "红薯（熟）",
+      "category": "staple",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一个",
+          "grams": 150
+        },
+        {
+          "label": "半个",
+          "grams": 75.0
+        }
+      ],
+      "fdc_id": "168484",
+      "description": "Sweet potato, cooked, boiled, without skin",
+      "source": "USDA FoodData Central / SR Legacy / FDC 168484",
+      "nutrients": {
+        "carbs": 17.72,
+        "kcal": 76.0,
+        "protein": 1.37,
+        "fat": 0.14
+      }
+    },
+    {
+      "id": "quinoa",
+      "name": "藜麦（熟）",
+      "category": "staple",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一碗",
+          "grams": 150
+        },
+        {
+          "label": "半碗",
+          "grams": 75.0
+        }
+      ],
+      "fdc_id": "168917",
+      "description": "Quinoa, cooked",
+      "source": "USDA FoodData Central / SR Legacy / FDC 168917",
+      "nutrients": {
+        "protein": 4.4,
+        "fat": 1.92,
+        "carbs": 21.3,
+        "kcal": 120.0
+      }
+    },
+    {
+      "id": "flour",
+      "name": "小麦面粉（干重）",
+      "category": "staple",
+      "tags": [
+        "小麦",
+        "麸质"
+      ],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 50
+        },
+        {
+          "label": "半份",
+          "grams": 25.0
+        }
+      ],
+      "fdc_id": "168894",
+      "description": "Wheat flour, white, all-purpose, enriched, bleached",
+      "source": "USDA FoodData Central / SR Legacy / FDC 168894",
+      "nutrients": {
+        "protein": 10.33,
+        "fat": 0.98,
+        "carbs": 76.31,
+        "kcal": 364.0
+      }
+    },
+    {
+      "id": "riceflour",
+      "name": "米粉（干粉）",
+      "category": "staple",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 50
+        },
+        {
+          "label": "半份",
+          "grams": 25.0
+        }
+      ],
+      "fdc_id": "169714",
+      "description": "Rice flour, white, unenriched",
+      "source": "USDA FoodData Central / SR Legacy / FDC 169714",
+      "nutrients": {
+        "fat": 1.42,
+        "carbs": 80.13,
+        "kcal": 366.0,
+        "protein": 5.95
+      }
+    },
+    {
+      "id": "millet",
+      "name": "小米（熟）",
+      "category": "staple",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一碗",
+          "grams": 150
+        },
+        {
+          "label": "半碗",
+          "grams": 75.0
+        }
+      ],
+      "fdc_id": "168871",
+      "description": "Millet, cooked",
+      "source": "USDA FoodData Central / SR Legacy / FDC 168871",
+      "nutrients": {
+        "protein": 3.51,
+        "fat": 1.0,
+        "carbs": 23.67,
+        "kcal": 119.0
+      }
+    },
+    {
+      "id": "egg",
+      "name": "鸡蛋（水煮，去壳）",
+      "category": "protein",
+      "tags": [
+        "鸡蛋",
+        "蛋"
+      ],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一个",
+          "grams": 50
+        },
+        {
+          "label": "半个",
+          "grams": 25.0
+        }
+      ],
+      "fdc_id": "173424",
+      "description": "Egg, whole, cooked, hard-boiled",
+      "source": "USDA FoodData Central / SR Legacy / FDC 173424",
+      "nutrients": {
+        "kcal": 155.0,
+        "protein": 12.58,
+        "fat": 10.61,
+        "carbs": 1.12
+      }
+    },
+    {
+      "id": "chicken",
+      "name": "鸡胸肉（熟，去皮）",
+      "category": "protein",
+      "tags": [
+        "鸡肉"
+      ],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 100
+        },
+        {
+          "label": "半份",
+          "grams": 50.0
+        }
+      ],
+      "fdc_id": "171477",
+      "description": "Chicken, broilers or fryers, breast, meat only, cooked, roasted",
+      "source": "USDA FoodData Central / SR Legacy / FDC 171477",
+      "nutrients": {
+        "fat": 3.57,
+        "carbs": 0.0,
+        "kcal": 165.0,
+        "protein": 31.02
+      }
+    },
+    {
+      "id": "pork",
+      "name": "猪里脊（熟，瘦肉）",
+      "category": "protein",
+      "tags": [
+        "猪肉"
+      ],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 100
+        },
+        {
+          "label": "半份",
+          "grams": 50.0
+        }
+      ],
+      "fdc_id": "168250",
+      "description": "Pork, fresh, loin, tenderloin, separable lean only, cooked, roasted",
+      "source": "USDA FoodData Central / SR Legacy / FDC 168250",
+      "nutrients": {
+        "protein": 26.17,
+        "fat": 3.51,
+        "kcal": 143.0,
+        "carbs": 0.0
+      }
+    },
+    {
+      "id": "beef",
+      "name": "牛肉（熟，瘦肉）",
+      "category": "protein",
+      "tags": [
+        "牛肉"
+      ],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 100
+        },
+        {
+          "label": "半份",
+          "grams": 50.0
+        }
+      ],
+      "fdc_id": "168616",
+      "description": "Beef, round, full cut, separable lean only, trimmed to 1/4\" fat, choice, cooked, broiled",
+      "source": "USDA FoodData Central / SR Legacy / FDC 168616",
+      "nutrients": {
+        "protein": 29.21,
+        "fat": 7.31,
+        "carbs": 0.0,
+        "kcal": 191.0
+      }
+    },
+    {
+      "id": "cod",
+      "name": "鱼肉（熟；鳕鱼参考）",
+      "category": "protein",
+      "tags": [
+        "鱼",
+        "海鲜"
+      ],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 100
+        },
+        {
+          "label": "半份",
+          "grams": 50.0
+        }
+      ],
+      "fdc_id": "171956",
+      "description": "Fish, cod, Atlantic, cooked, dry heat",
+      "source": "USDA FoodData Central / SR Legacy / FDC 171956",
+      "nutrients": {
+        "kcal": 105.0,
+        "fat": 0.86,
+        "carbs": 0.0,
+        "protein": 22.83
+      }
+    },
+    {
+      "id": "salmon",
+      "name": "三文鱼（熟）",
+      "category": "protein",
+      "tags": [
+        "鱼",
+        "海鲜"
+      ],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 100
+        },
+        {
+          "label": "半份",
+          "grams": 50.0
+        }
+      ],
+      "fdc_id": "175168",
+      "description": "Fish, salmon, Atlantic, farmed, cooked, dry heat",
+      "source": "USDA FoodData Central / SR Legacy / FDC 175168",
+      "nutrients": {
+        "fat": 12.35,
+        "carbs": 0.0,
+        "protein": 22.1,
+        "kcal": 206.0
+      }
+    },
+    {
+      "id": "shrimp",
+      "name": "虾（熟，去壳）",
+      "category": "protein",
+      "tags": [
+        "虾",
+        "海鲜",
+        "甲壳类"
+      ],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 100
+        },
+        {
+          "label": "半份",
+          "grams": 50.0
+        }
+      ],
+      "fdc_id": "171971",
+      "description": "Crustaceans, shrimp, mixed species, cooked, moist heat (may contain additives to retain moisture)",
+      "source": "USDA FoodData Central / SR Legacy / FDC 171971",
+      "nutrients": {
+        "protein": 22.78,
+        "fat": 1.7,
+        "carbs": 1.52,
+        "kcal": 119.0
+      }
+    },
+    {
+      "id": "tofu",
+      "name": "豆腐（参考钙凝固普通豆腐）",
+      "category": "protein",
+      "tags": [
+        "豆",
+        "大豆"
+      ],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 150
+        },
+        {
+          "label": "半份",
+          "grams": 75.0
+        }
+      ],
+      "fdc_id": "172476",
+      "description": "Tofu, raw, regular, prepared with calcium sulfate",
+      "source": "USDA FoodData Central / SR Legacy / FDC 172476",
+      "nutrients": {
+        "carbs": 1.87,
+        "fat": 4.78,
+        "kcal": 76.0,
+        "protein": 8.08
+      }
+    },
+    {
+      "id": "edamame",
+      "name": "毛豆仁（熟）",
+      "category": "protein",
+      "tags": [
+        "豆",
+        "大豆"
+      ],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 100
+        },
+        {
+          "label": "半份",
+          "grams": 50.0
+        }
+      ],
+      "fdc_id": "168411",
+      "description": "Edamame, frozen, prepared",
+      "source": "USDA FoodData Central / SR Legacy / FDC 168411",
+      "nutrients": {
+        "fat": 5.2,
+        "carbs": 8.91,
+        "kcal": 121.0,
+        "protein": 11.91
+      }
+    },
+    {
+      "id": "lentil",
+      "name": "扁豆（熟）",
+      "category": "protein",
+      "tags": [
+        "豆"
+      ],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 100
+        },
+        {
+          "label": "半份",
+          "grams": 50.0
+        }
+      ],
+      "fdc_id": "172421",
+      "description": "Lentils, mature seeds, cooked, boiled, without salt",
+      "source": "USDA FoodData Central / SR Legacy / FDC 172421",
+      "nutrients": {
+        "carbs": 20.13,
+        "kcal": 116.0,
+        "protein": 9.02,
+        "fat": 0.38
+      }
+    },
+    {
+      "id": "chickpea",
+      "name": "鹰嘴豆（熟）",
+      "category": "protein",
+      "tags": [
+        "豆"
+      ],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 100
+        },
+        {
+          "label": "半份",
+          "grams": 50.0
+        }
+      ],
+      "fdc_id": "173757",
+      "description": "Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt",
+      "source": "USDA FoodData Central / SR Legacy / FDC 173757",
+      "nutrients": {
+        "carbs": 27.42,
+        "kcal": 164.0,
+        "fat": 2.59,
+        "protein": 8.86
+      }
+    },
+    {
+      "id": "broccoli",
+      "name": "西兰花（熟）",
+      "category": "vegetable",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 150
+        },
+        {
+          "label": "半份",
+          "grams": 75.0
+        }
+      ],
+      "fdc_id": "169967",
+      "description": "Broccoli, cooked, boiled, drained, without salt",
+      "source": "USDA FoodData Central / SR Legacy / FDC 169967",
+      "nutrients": {
+        "fat": 0.41,
+        "protein": 2.38,
+        "carbs": 7.18,
+        "kcal": 35.0
+      }
+    },
+    {
+      "id": "cabbage",
+      "name": "大白菜（熟）",
+      "category": "vegetable",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 150
+        },
+        {
+          "label": "半份",
+          "grams": 75.0
+        }
+      ],
+      "fdc_id": "169980",
+      "description": "Cabbage, chinese (pe-tsai), cooked, boiled, drained, without salt",
+      "source": "USDA FoodData Central / SR Legacy / FDC 169980",
+      "nutrients": {
+        "fat": 0.17,
+        "carbs": 2.41,
+        "kcal": 14.0,
+        "protein": 1.5
+      }
+    },
+    {
+      "id": "bokchoy",
+      "name": "小白菜（熟）",
+      "category": "vegetable",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 150
+        },
+        {
+          "label": "半份",
+          "grams": 75.0
+        }
+      ],
+      "fdc_id": "170391",
+      "description": "Cabbage, chinese (pak-choi), cooked, boiled, drained, without salt",
+      "source": "USDA FoodData Central / SR Legacy / FDC 170391",
+      "nutrients": {
+        "carbs": 1.78,
+        "kcal": 12.0,
+        "fat": 0.16,
+        "protein": 1.56
+      }
+    },
+    {
+      "id": "spinach",
+      "name": "菠菜（熟）",
+      "category": "vegetable",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 150
+        },
+        {
+          "label": "半份",
+          "grams": 75.0
+        }
+      ],
+      "fdc_id": "168463",
+      "description": "Spinach, cooked, boiled, drained, without salt",
+      "source": "USDA FoodData Central / SR Legacy / FDC 168463",
+      "nutrients": {
+        "carbs": 3.75,
+        "fat": 0.26,
+        "protein": 2.97,
+        "kcal": 23.0
+      }
+    },
+    {
+      "id": "carrot",
+      "name": "胡萝卜（熟）",
+      "category": "vegetable",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 100
+        },
+        {
+          "label": "半份",
+          "grams": 50.0
+        }
+      ],
+      "fdc_id": "170394",
+      "description": "Carrots, cooked, boiled, drained, without salt",
+      "source": "USDA FoodData Central / SR Legacy / FDC 170394",
+      "nutrients": {
+        "fat": 0.18,
+        "protein": 0.76,
+        "carbs": 8.22,
+        "kcal": 35.0
+      }
+    },
+    {
+      "id": "tomato",
+      "name": "番茄（生）",
+      "category": "vegetable",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一个",
+          "grams": 150
+        },
+        {
+          "label": "半个",
+          "grams": 75.0
+        }
+      ],
+      "fdc_id": "170457",
+      "description": "Tomatoes, red, ripe, raw, year round average",
+      "source": "USDA FoodData Central / SR Legacy / FDC 170457",
+      "nutrients": {
+        "carbs": 3.89,
+        "kcal": 18.0,
+        "fat": 0.2,
+        "protein": 0.88
+      }
+    },
+    {
+      "id": "cucumber",
+      "name": "黄瓜（生）",
+      "category": "vegetable",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 150
+        },
+        {
+          "label": "半份",
+          "grams": 75.0
+        }
+      ],
+      "fdc_id": "168409",
+      "description": "Cucumber, with peel, raw",
+      "source": "USDA FoodData Central / SR Legacy / FDC 168409",
+      "nutrients": {
+        "carbs": 3.63,
+        "kcal": 15.0,
+        "fat": 0.11,
+        "protein": 0.65
+      }
+    },
+    {
+      "id": "lettuce",
+      "name": "生菜（生）",
+      "category": "vegetable",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 100
+        },
+        {
+          "label": "半份",
+          "grams": 50.0
+        }
+      ],
+      "fdc_id": "169249",
+      "description": "Lettuce, green leaf, raw",
+      "source": "USDA FoodData Central / SR Legacy / FDC 169249",
+      "nutrients": {
+        "carbs": 2.87,
+        "kcal": 15.0,
+        "protein": 1.36,
+        "fat": 0.15
+      }
+    },
+    {
+      "id": "mushroom",
+      "name": "香菇（熟）",
+      "category": "vegetable",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 100
+        },
+        {
+          "label": "半份",
+          "grams": 50.0
+        }
+      ],
+      "fdc_id": "168437",
+      "description": "Mushrooms, shiitake, cooked, without salt",
+      "source": "USDA FoodData Central / SR Legacy / FDC 168437",
+      "nutrients": {
+        "carbs": 14.39,
+        "kcal": 56.0,
+        "fat": 0.22,
+        "protein": 1.56
+      }
+    },
+    {
+      "id": "cauliflower",
+      "name": "菜花（熟）",
+      "category": "vegetable",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 150
+        },
+        {
+          "label": "半份",
+          "grams": 75.0
+        }
+      ],
+      "fdc_id": "170397",
+      "description": "Cauliflower, cooked, boiled, drained, without salt",
+      "source": "USDA FoodData Central / SR Legacy / FDC 170397",
+      "nutrients": {
+        "carbs": 4.11,
+        "kcal": 23.0,
+        "protein": 1.84,
+        "fat": 0.45
+      }
+    },
+    {
+      "id": "greenbean",
+      "name": "四季豆（熟）",
+      "category": "vegetable",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 150
+        },
+        {
+          "label": "半份",
+          "grams": 75.0
+        }
+      ],
+      "fdc_id": "169141",
+      "description": "Beans, snap, green, cooked, boiled, drained, without salt",
+      "source": "USDA FoodData Central / SR Legacy / FDC 169141",
+      "nutrients": {
+        "carbs": 7.88,
+        "kcal": 35.0,
+        "protein": 1.89,
+        "fat": 0.28
+      }
+    },
+    {
+      "id": "eggplant",
+      "name": "茄子（熟，未计油）",
+      "category": "vegetable",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 150
+        },
+        {
+          "label": "半份",
+          "grams": 75.0
+        }
+      ],
+      "fdc_id": "169229",
+      "description": "Eggplant, cooked, boiled, drained, without salt",
+      "source": "USDA FoodData Central / SR Legacy / FDC 169229",
+      "nutrients": {
+        "carbs": 8.73,
+        "kcal": 35.0,
+        "protein": 0.83,
+        "fat": 0.23
+      }
+    },
+    {
+      "id": "pumpkin",
+      "name": "南瓜（熟）",
+      "category": "vegetable",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 150
+        },
+        {
+          "label": "半份",
+          "grams": 75.0
+        }
+      ],
+      "fdc_id": "168449",
+      "description": "Pumpkin, cooked, boiled, drained, without salt",
+      "source": "USDA FoodData Central / SR Legacy / FDC 168449",
+      "nutrients": {
+        "carbs": 4.9,
+        "kcal": 20.0,
+        "protein": 0.72,
+        "fat": 0.07
+      }
+    },
+    {
+      "id": "zucchini",
+      "name": "西葫芦（熟）",
+      "category": "vegetable",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 150
+        },
+        {
+          "label": "半份",
+          "grams": 75.0
+        }
+      ],
+      "fdc_id": "169292",
+      "description": "Squash, summer, zucchini, includes skin, cooked, boiled, drained, without salt",
+      "source": "USDA FoodData Central / SR Legacy / FDC 169292",
+      "nutrients": {
+        "protein": 1.14,
+        "fat": 0.36,
+        "kcal": 15.0,
+        "carbs": 2.69
+      }
+    },
+    {
+      "id": "pepper",
+      "name": "青椒（生）",
+      "category": "vegetable",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 100
+        },
+        {
+          "label": "半份",
+          "grams": 50.0
+        }
+      ],
+      "fdc_id": "170427",
+      "description": "Peppers, sweet, green, raw",
+      "source": "USDA FoodData Central / SR Legacy / FDC 170427",
+      "nutrients": {
+        "fat": 0.17,
+        "protein": 0.86,
+        "carbs": 4.64,
+        "kcal": 20.0
+      }
+    },
+    {
+      "id": "celery",
+      "name": "芹菜（生）",
+      "category": "vegetable",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 100
+        },
+        {
+          "label": "半份",
+          "grams": 50.0
+        }
+      ],
+      "fdc_id": "169988",
+      "description": "Celery, raw",
+      "source": "USDA FoodData Central / SR Legacy / FDC 169988",
+      "nutrients": {
+        "kcal": 14.0,
+        "carbs": 2.97,
+        "fat": 0.17,
+        "protein": 0.69
+      }
+    },
+    {
+      "id": "onion",
+      "name": "洋葱（生）",
+      "category": "vegetable",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 100
+        },
+        {
+          "label": "半份",
+          "grams": 50.0
+        }
+      ],
+      "fdc_id": "170000",
+      "description": "Onions, raw",
+      "source": "USDA FoodData Central / SR Legacy / FDC 170000",
+      "nutrients": {
+        "fat": 0.1,
+        "carbs": 9.34,
+        "kcal": 40.0,
+        "protein": 1.1
+      }
+    },
+    {
+      "id": "asparagus",
+      "name": "芦笋（熟）",
+      "category": "vegetable",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 100
+        },
+        {
+          "label": "半份",
+          "grams": 50.0
+        }
+      ],
+      "fdc_id": "168390",
+      "description": "Asparagus, cooked, boiled, drained",
+      "source": "USDA FoodData Central / SR Legacy / FDC 168390",
+      "nutrients": {
+        "carbs": 4.11,
+        "kcal": 22.0,
+        "fat": 0.22,
+        "protein": 2.4
+      }
+    },
+    {
+      "id": "apple",
+      "name": "苹果（带皮）",
+      "category": "fruit",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一个",
+          "grams": 180
+        },
+        {
+          "label": "半个",
+          "grams": 90.0
+        }
+      ],
+      "fdc_id": "171688",
+      "description": "Apples, raw, with skin (Includes foods for USDA's Food Distribution Program)",
+      "source": "USDA FoodData Central / SR Legacy / FDC 171688",
+      "nutrients": {
+        "carbs": 13.81,
+        "kcal": 52.0,
+        "fat": 0.17,
+        "protein": 0.26
+      }
+    },
+    {
+      "id": "banana",
+      "name": "香蕉（去皮）",
+      "category": "fruit",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一根",
+          "grams": 100
+        },
+        {
+          "label": "半根",
+          "grams": 50.0
+        }
+      ],
+      "fdc_id": "173944",
+      "description": "Bananas, raw",
+      "source": "USDA FoodData Central / SR Legacy / FDC 173944",
+      "nutrients": {
+        "carbs": 22.84,
+        "kcal": 89.0,
+        "protein": 1.09,
+        "fat": 0.33
+      }
+    },
+    {
+      "id": "orange",
+      "name": "橙子（去皮）",
+      "category": "fruit",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一个",
+          "grams": 130
+        },
+        {
+          "label": "半个",
+          "grams": 65.0
+        }
+      ],
+      "fdc_id": "169097",
+      "description": "Oranges, raw, all commercial varieties",
+      "source": "USDA FoodData Central / SR Legacy / FDC 169097",
+      "nutrients": {
+        "fat": 0.12,
+        "carbs": 11.75,
+        "kcal": 47.0,
+        "protein": 0.94
+      }
+    },
+    {
+      "id": "pear",
+      "name": "梨（带皮）",
+      "category": "fruit",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一个",
+          "grams": 180
+        },
+        {
+          "label": "半个",
+          "grams": 90.0
+        }
+      ],
+      "fdc_id": "169118",
+      "description": "Pears, raw",
+      "source": "USDA FoodData Central / SR Legacy / FDC 169118",
+      "nutrients": {
+        "fat": 0.14,
+        "carbs": 15.23,
+        "kcal": 57.0,
+        "protein": 0.36
+      }
+    },
+    {
+      "id": "kiwi",
+      "name": "猕猴桃（绿肉，去皮）",
+      "category": "fruit",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一个",
+          "grams": 80
+        },
+        {
+          "label": "半个",
+          "grams": 40.0
+        }
+      ],
+      "fdc_id": "168153",
+      "description": "Kiwifruit, green, raw",
+      "source": "USDA FoodData Central / SR Legacy / FDC 168153",
+      "nutrients": {
+        "protein": 1.14,
+        "fat": 0.52,
+        "carbs": 14.66,
+        "kcal": 61.0
+      }
+    },
+    {
+      "id": "grape",
+      "name": "葡萄",
+      "category": "fruit",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 100
+        },
+        {
+          "label": "半份",
+          "grams": 50.0
+        }
+      ],
+      "fdc_id": "174683",
+      "description": "Grapes, red or green (European type, such as Thompson seedless), raw",
+      "source": "USDA FoodData Central / SR Legacy / FDC 174683",
+      "nutrients": {
+        "fat": 0.16,
+        "protein": 0.72,
+        "carbs": 18.1,
+        "kcal": 69.0
+      }
+    },
+    {
+      "id": "strawberry",
+      "name": "草莓",
+      "category": "fruit",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 150
+        },
+        {
+          "label": "半份",
+          "grams": 75.0
+        }
+      ],
+      "fdc_id": "167762",
+      "description": "Strawberries, raw",
+      "source": "USDA FoodData Central / SR Legacy / FDC 167762",
+      "nutrients": {
+        "fat": 0.3,
+        "protein": 0.67,
+        "carbs": 7.68,
+        "kcal": 32.0
+      }
+    },
+    {
+      "id": "watermelon",
+      "name": "西瓜（去皮）",
+      "category": "fruit",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 200
+        },
+        {
+          "label": "半份",
+          "grams": 100.0
+        }
+      ],
+      "fdc_id": "167765",
+      "description": "Watermelon, raw",
+      "source": "USDA FoodData Central / SR Legacy / FDC 167765",
+      "nutrients": {
+        "protein": 0.61,
+        "fat": 0.15,
+        "carbs": 7.55,
+        "kcal": 30.0
+      }
+    },
+    {
+      "id": "peach",
+      "name": "桃（去核）",
+      "category": "fruit",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一个",
+          "grams": 150
+        },
+        {
+          "label": "半个",
+          "grams": 75.0
+        }
+      ],
+      "fdc_id": "169928",
+      "description": "Peaches, yellow, raw",
+      "source": "USDA FoodData Central / SR Legacy / FDC 169928",
+      "nutrients": {
+        "carbs": 9.54,
+        "kcal": 39.0,
+        "protein": 0.91,
+        "fat": 0.25
+      }
+    },
+    {
+      "id": "blueberry",
+      "name": "蓝莓",
+      "category": "fruit",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 100
+        },
+        {
+          "label": "半份",
+          "grams": 50.0
+        }
+      ],
+      "fdc_id": "171711",
+      "description": "Blueberries, raw",
+      "source": "USDA FoodData Central / SR Legacy / FDC 171711",
+      "nutrients": {
+        "carbs": 14.49,
+        "kcal": 57.0,
+        "fat": 0.33,
+        "protein": 0.74
+      }
+    },
+    {
+      "id": "mango",
+      "name": "芒果（去皮核）",
+      "category": "fruit",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一份",
+          "grams": 100
+        },
+        {
+          "label": "半份",
+          "grams": 50.0
+        }
+      ],
+      "fdc_id": "169910",
+      "description": "Mangos, raw",
+      "source": "USDA FoodData Central / SR Legacy / FDC 169910",
+      "nutrients": {
+        "fat": 0.38,
+        "protein": 0.82,
+        "carbs": 14.98,
+        "kcal": 60.0
+      }
+    },
+    {
+      "id": "milk",
+      "name": "低脂牛奶（2%脂肪）",
+      "category": "dairy",
+      "tags": [
+        "奶",
+        "乳"
+      ],
+      "unit": "ml",
+      "portions": [
+        {
+          "label": "一杯",
+          "grams": 250
+        },
+        {
+          "label": "半杯",
+          "grams": 125.0
+        }
+      ],
+      "fdc_id": "171267",
+      "description": "Milk, reduced fat, fluid, 2% milkfat, with added vitamin A and vitamin D",
+      "source": "USDA FoodData Central / SR Legacy / FDC 171267；毫升按密度约 1 克/毫升估算",
+      "nutrients": {
+        "protein": 3.3,
+        "carbs": 4.8,
+        "kcal": 50.0,
+        "fat": 1.98
+      }
+    },
+    {
+      "id": "skim",
+      "name": "脱脂牛奶",
+      "category": "dairy",
+      "tags": [
+        "奶",
+        "乳"
+      ],
+      "unit": "ml",
+      "portions": [
+        {
+          "label": "一杯",
+          "grams": 250
+        },
+        {
+          "label": "半杯",
+          "grams": 125.0
+        }
+      ],
+      "fdc_id": "171269",
+      "description": "Milk, nonfat, fluid, with added vitamin A and vitamin D (fat free or skim)",
+      "source": "USDA FoodData Central / SR Legacy / FDC 171269；毫升按密度约 1 克/毫升估算",
+      "nutrients": {
+        "fat": 0.08,
+        "protein": 3.37,
+        "carbs": 4.96,
+        "kcal": 34.0
+      }
+    },
+    {
+      "id": "yogurt",
+      "name": "原味低脂酸奶",
+      "category": "dairy",
+      "tags": [
+        "奶",
+        "乳"
+      ],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一杯",
+          "grams": 150
+        },
+        {
+          "label": "半杯",
+          "grams": 75.0
+        }
+      ],
+      "fdc_id": "170886",
+      "description": "Yogurt, plain, low fat",
+      "source": "USDA FoodData Central / SR Legacy / FDC 170886",
+      "nutrients": {
+        "kcal": 63.0,
+        "fat": 1.55,
+        "carbs": 7.04,
+        "protein": 5.25
+      }
+    },
+    {
+      "id": "greek",
+      "name": "原味脱脂希腊酸奶",
+      "category": "dairy",
+      "tags": [
+        "奶",
+        "乳"
+      ],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一杯",
+          "grams": 150
+        },
+        {
+          "label": "半杯",
+          "grams": 75.0
+        }
+      ],
+      "fdc_id": "170894",
+      "description": "Yogurt, Greek, plain, nonfat (Includes foods for USDA's Food Distribution Program)",
+      "source": "USDA FoodData Central / SR Legacy / FDC 170894",
+      "nutrients": {
+        "protein": 10.19,
+        "fat": 0.39,
+        "carbs": 3.6,
+        "kcal": 59.0
+      }
+    },
+    {
+      "id": "soymilk",
+      "name": "无糖豆奶（参考值）",
+      "category": "protein",
+      "tags": [
+        "豆",
+        "大豆"
+      ],
+      "unit": "ml",
+      "portions": [
+        {
+          "label": "一杯",
+          "grams": 250
+        },
+        {
+          "label": "半杯",
+          "grams": 125.0
+        }
+      ],
+      "fdc_id": "173768",
+      "description": "Soymilk, original and vanilla, light, unsweetened, with added calcium, vitamins A and D",
+      "source": "USDA FoodData Central / SR Legacy / FDC 173768；毫升按密度约 1 克/毫升估算",
+      "nutrients": {
+        "fat": 0.85,
+        "carbs": 3.85,
+        "kcal": 34.0,
+        "protein": 2.62
+      }
+    },
+    {
+      "id": "almond",
+      "name": "杏仁",
+      "category": "snack",
+      "tags": [
+        "坚果",
+        "杏仁"
+      ],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一小把",
+          "grams": 15
+        },
+        {
+          "label": "半小把",
+          "grams": 7.5
+        }
+      ],
+      "fdc_id": "170567",
+      "description": "Nuts, almonds",
+      "source": "USDA FoodData Central / SR Legacy / FDC 170567",
+      "nutrients": {
+        "protein": 21.15,
+        "fat": 49.93,
+        "carbs": 21.55,
+        "kcal": 579.0
+      }
+    },
+    {
+      "id": "walnut",
+      "name": "核桃仁",
+      "category": "snack",
+      "tags": [
+        "坚果",
+        "核桃"
+      ],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一小把",
+          "grams": 15
+        },
+        {
+          "label": "半小把",
+          "grams": 7.5
+        }
+      ],
+      "fdc_id": "170187",
+      "description": "Nuts, walnuts, english",
+      "source": "USDA FoodData Central / SR Legacy / FDC 170187",
+      "nutrients": {
+        "carbs": 13.71,
+        "kcal": 654.0,
+        "protein": 15.23,
+        "fat": 65.21
+      }
+    },
+    {
+      "id": "peanut",
+      "name": "花生（烤，无盐）",
+      "category": "snack",
+      "tags": [
+        "花生",
+        "坚果"
+      ],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一小把",
+          "grams": 15
+        },
+        {
+          "label": "半小把",
+          "grams": 7.5
+        }
+      ],
+      "fdc_id": "173806",
+      "description": "Peanuts, all types, dry-roasted, without salt",
+      "source": "USDA FoodData Central / SR Legacy / FDC 173806",
+      "nutrients": {
+        "protein": 24.35,
+        "carbs": 21.26,
+        "kcal": 587.0,
+        "fat": 49.66
+      }
+    },
+    {
+      "id": "cashew",
+      "name": "腰果（生）",
+      "category": "snack",
+      "tags": [
+        "坚果",
+        "腰果"
+      ],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一小把",
+          "grams": 15
+        },
+        {
+          "label": "半小把",
+          "grams": 7.5
+        }
+      ],
+      "fdc_id": "170162",
+      "description": "Nuts, cashew nuts, raw",
+      "source": "USDA FoodData Central / SR Legacy / FDC 170162",
+      "nutrients": {
+        "protein": 18.22,
+        "fat": 43.85,
+        "carbs": 30.19,
+        "kcal": 553.0
+      }
+    },
+    {
+      "id": "oil",
+      "name": "烹调油（大豆油参考）",
+      "category": "oil",
+      "tags": [
+        "大豆油"
+      ],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一茶匙",
+          "grams": 5
+        },
+        {
+          "label": "半茶匙",
+          "grams": 2.5
+        }
+      ],
+      "fdc_id": "171411",
+      "description": "Oil, soybean, salad or cooking",
+      "source": "USDA FoodData Central / SR Legacy / FDC 171411",
+      "nutrients": {
+        "protein": 0.0,
+        "fat": 100.0,
+        "carbs": 0.0,
+        "kcal": 884.0
+      }
+    },
+    {
+      "id": "olive",
+      "name": "橄榄油",
+      "category": "oil",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一茶匙",
+          "grams": 5
+        },
+        {
+          "label": "半茶匙",
+          "grams": 2.5
+        }
+      ],
+      "fdc_id": "171413",
+      "description": "Oil, olive, salad or cooking",
+      "source": "USDA FoodData Central / SR Legacy / FDC 171413",
+      "nutrients": {
+        "fat": 100.0,
+        "carbs": 0.0,
+        "kcal": 884.0,
+        "protein": 0.0
+      }
+    },
+    {
+      "id": "coffee",
+      "name": "黑咖啡（不加糖奶）",
+      "category": "drink",
+      "tags": [],
+      "unit": "ml",
+      "portions": [
+        {
+          "label": "一杯",
+          "grams": 250
+        },
+        {
+          "label": "半杯",
+          "grams": 125.0
+        }
+      ],
+      "fdc_id": "171890",
+      "description": "Beverages, coffee, brewed, prepared with tap water",
+      "source": "USDA FoodData Central / SR Legacy / FDC 171890；毫升按密度约 1 克/毫升估算",
+      "nutrients": {
+        "kcal": 1.0,
+        "protein": 0.12,
+        "fat": 0.02,
+        "carbs": 0.0
+      }
+    },
+    {
+      "id": "tea",
+      "name": "绿茶（不加糖）",
+      "category": "drink",
+      "tags": [],
+      "unit": "ml",
+      "portions": [
+        {
+          "label": "一杯",
+          "grams": 250
+        },
+        {
+          "label": "半杯",
+          "grams": 125.0
+        }
+      ],
+      "fdc_id": "171917",
+      "description": "Beverages, tea, green, brewed, regular",
+      "source": "USDA FoodData Central / SR Legacy / FDC 171917；毫升按密度约 1 克/毫升估算",
+      "nutrients": {
+        "fat": 0.0,
+        "carbs": 0.0,
+        "kcal": 1.0,
+        "protein": 0.22
+      }
+    },
+    {
+      "id": "cola",
+      "name": "可乐（含糖）",
+      "category": "drink",
+      "tags": [],
+      "unit": "ml",
+      "portions": [
+        {
+          "label": "一罐",
+          "grams": 330
+        },
+        {
+          "label": "半罐",
+          "grams": 165.0
+        }
+      ],
+      "fdc_id": "174852",
+      "description": "Beverages, carbonated, cola, regular",
+      "source": "USDA FoodData Central / SR Legacy / FDC 174852；毫升按密度约 1 克/毫升估算",
+      "nutrients": {
+        "fat": 0.25,
+        "carbs": 10.36,
+        "kcal": 42.0,
+        "protein": 0.0
+      }
+    },
+    {
+      "id": "chocolate",
+      "name": "黑巧克力（70–85%可可）",
+      "category": "snack",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一小块",
+          "grams": 10
+        },
+        {
+          "label": "半小块",
+          "grams": 5.0
+        }
+      ],
+      "fdc_id": "170273",
+      "description": "Chocolate, dark, 70-85% cacao solids",
+      "source": "USDA FoodData Central / SR Legacy / FDC 170273",
+      "nutrients": {
+        "fat": 42.63,
+        "carbs": 45.9,
+        "kcal": 598.0,
+        "protein": 7.79
+      }
+    },
+    {
+      "id": "bun",
+      "name": "馒头（模型估算）",
+      "category": "staple",
+      "tags": [
+        "小麦",
+        "麸质"
+      ],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一个",
+          "grams": 100
+        },
+        {
+          "label": "半份",
+          "grams": 50.0
+        }
+      ],
+      "source": "食材模型估算；按 USDA SR Legacy 基础条目计算，非餐厅实测：flour 60g",
+      "nutrients": {
+        "kcal": 218.4,
+        "protein": 6.198,
+        "fat": 0.588,
+        "carbs": 45.786
+      }
+    },
+    {
+      "id": "porridge",
+      "name": "米粥（模型估算）",
+      "category": "staple",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一碗",
+          "grams": 250
+        },
+        {
+          "label": "半份",
+          "grams": 125.0
+        }
+      ],
+      "source": "食材模型估算；按 USDA SR Legacy 基础条目计算，非餐厅实测：rice 35g",
+      "nutrients": {
+        "kcal": 45.5,
+        "protein": 0.941,
+        "fat": 0.098,
+        "carbs": 9.86
+      }
+    },
+    {
+      "id": "dumpling",
+      "name": "猪肉白菜水饺（模型估算）",
+      "category": "staple",
+      "tags": [
+        "小麦",
+        "麸质",
+        "猪肉"
+      ],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "十个约",
+          "grams": 250
+        },
+        {
+          "label": "半份",
+          "grams": 125.0
+        }
+      ],
+      "source": "食材模型估算；按 USDA SR Legacy 基础条目计算，非餐厅实测：flour 28g, pork 20g, cabbage 15g, oil 3g",
+      "nutrients": {
+        "kcal": 159.14,
+        "protein": 8.351,
+        "fat": 4.002,
+        "carbs": 21.728
+      }
+    },
+    {
+      "id": "rice_noodle",
+      "name": "米粉（熟，模型估算）",
+      "category": "staple",
+      "tags": [],
+      "unit": "g",
+      "portions": [
+        {
+          "label": "一碗",
+          "grams": 200
+        },
+        {
+          "label": "半份",
+          "grams": 100.0
+        }
+      ],
+      "source": "食材模型估算；按 USDA SR Legacy 基础条目计算，非餐厅实测：riceflour 25g",
+      "nutrients": {
+        "kcal": 91.5,
+        "protein": 1.488,
+        "fat": 0.355,
+        "carbs": 20.032
+      }
+    }
+  ],
+  "templates": [
+    {
+      "id": "meal-1",
+      "name": "牛奶燕麦鸡蛋",
+      "meals": [
+        "breakfast"
+      ],
+      "items": [
+        {
+          "food": "oats",
+          "grams": 40
+        },
+        {
+          "food": "milk",
+          "grams": 250
+        },
+        {
+          "food": "egg",
+          "grams": 50
+        },
+        {
+          "food": "apple",
+          "grams": 100
+        }
+      ],
+      "notes": "早餐保留主食与蛋白质食物；选择无糖饮品。食物克数与营养为参考估算。"
+    },
+    {
+      "id": "meal-2",
+      "name": "全麦面包鸡蛋套餐",
+      "meals": [
+        "breakfast"
+      ],
+      "items": [
+        {
+          "food": "bread",
+          "grams": 60
+        },
+        {
+          "food": "egg",
+          "grams": 50
+        },
+        {
+          "food": "milk",
+          "grams": 250
+        },
+        {
+          "food": "tomato",
+          "grams": 100
+        }
+      ],
+      "notes": "早餐保留主食与蛋白质食物；选择无糖饮品。食物克数与营养为参考估算。"
+    },
+    {
+      "id": "meal-3",
+      "name": "豆奶馒头鸡蛋",
+      "meals": [
+        "breakfast"
+      ],
+      "items": [
+        {
+          "food": "soymilk",
+          "grams": 250
+        },
+        {
+          "food": "bun",
+          "grams": 100
+        },
+        {
+          "food": "egg",
+          "grams": 50
+        },
+        {
+          "food": "cucumber",
+          "grams": 100
+        }
+      ],
+      "notes": "早餐保留主食与蛋白质食物；选择无糖饮品。食物克数与营养为参考估算。"
+    },
+    {
+      "id": "meal-4",
+      "name": "红薯酸奶早餐",
+      "meals": [
+        "breakfast"
+      ],
+      "items": [
+        {
+          "food": "sweetpotato",
+          "grams": 200
+        },
+        {
+          "food": "yogurt",
+          "grams": 150
+        },
+        {
+          "food": "egg",
+          "grams": 50
+        },
+        {
+          "food": "kiwi",
+          "grams": 80
+        }
+      ],
+      "notes": "早餐保留主食与蛋白质食物；选择无糖饮品。食物克数与营养为参考估算。"
+    },
+    {
+      "id": "meal-5",
+      "name": "玉米牛奶早餐",
+      "meals": [
+        "breakfast"
+      ],
+      "items": [
+        {
+          "food": "corn",
+          "grams": 150
+        },
+        {
+          "food": "milk",
+          "grams": 250
+        },
+        {
+          "food": "egg",
+          "grams": 50
+        },
+        {
+          "food": "banana",
+          "grams": 80
+        }
+      ],
+      "notes": "早餐保留主食与蛋白质食物；选择无糖饮品。食物克数与营养为参考估算。"
+    },
+    {
+      "id": "meal-6",
+      "name": "酸奶燕麦水果",
+      "meals": [
+        "breakfast"
+      ],
+      "items": [
+        {
+          "food": "greek",
+          "grams": 200
+        },
+        {
+          "food": "oats",
+          "grams": 40
+        },
+        {
+          "food": "banana",
+          "grams": 100
+        },
+        {
+          "food": "walnut",
+          "grams": 15
+        }
+      ],
+      "notes": "早餐保留主食与蛋白质食物；选择无糖饮品。食物克数与营养为参考估算。"
+    },
+    {
+      "id": "meal-7",
+      "name": "小米鸡蛋早餐",
+      "meals": [
+        "breakfast"
+      ],
+      "items": [
+        {
+          "food": "millet",
+          "grams": 200
+        },
+        {
+          "food": "egg",
+          "grams": 100
+        },
+        {
+          "food": "skim",
+          "grams": 250
+        },
+        {
+          "food": "orange",
+          "grams": 100
+        }
+      ],
+      "notes": "早餐保留主食与蛋白质食物；选择无糖饮品。食物克数与营养为参考估算。"
+    },
+    {
+      "id": "meal-8",
+      "name": "米粥馒头豆腐",
+      "meals": [
+        "breakfast"
+      ],
+      "items": [
+        {
+          "food": "porridge",
+          "grams": 250
+        },
+        {
+          "food": "bun",
+          "grams": 80
+        },
+        {
+          "food": "tofu",
+          "grams": 150
+        },
+        {
+          "food": "cucumber",
+          "grams": 100
+        }
+      ],
+      "notes": "早餐保留主食与蛋白质食物；选择无糖饮品。食物克数与营养为参考估算。"
+    },
+    {
+      "id": "meal-9",
+      "name": "全麦豆奶坚果",
+      "meals": [
+        "breakfast"
+      ],
+      "items": [
+        {
+          "food": "bread",
+          "grams": 60
+        },
+        {
+          "food": "soymilk",
+          "grams": 300
+        },
+        {
+          "food": "almond",
+          "grams": 15
+        },
+        {
+          "food": "apple",
+          "grams": 150
+        }
+      ],
+      "notes": "早餐保留主食与蛋白质食物；选择无糖饮品。食物克数与营养为参考估算。"
+    },
+    {
+      "id": "meal-10",
+      "name": "藜麦酸奶水果",
+      "meals": [
+        "breakfast"
+      ],
+      "items": [
+        {
+          "food": "quinoa",
+          "grams": 150
+        },
+        {
+          "food": "yogurt",
+          "grams": 200
+        },
+        {
+          "food": "strawberry",
+          "grams": 150
+        },
+        {
+          "food": "cashew",
+          "grams": 15
+        }
+      ],
+      "notes": "早餐保留主食与蛋白质食物；选择无糖饮品。食物克数与营养为参考估算。"
+    },
+    {
+      "id": "meal-11",
+      "name": "鸡胸米饭蔬菜套餐",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "items": [
+        {
+          "food": "rice",
+          "grams": 180
+        },
+        {
+          "food": "chicken",
+          "grams": 100
+        },
+        {
+          "food": "broccoli",
+          "grams": 150
+        },
+        {
+          "food": "bokchoy",
+          "grams": 150
+        },
+        {
+          "food": "oil",
+          "grams": 10
+        }
+      ],
+      "notes": "主食和菜分开点；少油，酱汁另放。按实际份量修改记录，油量只是模型参考。"
+    },
+    {
+      "id": "meal-12",
+      "name": "瘦猪肉米饭蔬菜套餐",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "items": [
+        {
+          "food": "rice",
+          "grams": 180
+        },
+        {
+          "food": "pork",
+          "grams": 100
+        },
+        {
+          "food": "broccoli",
+          "grams": 150
+        },
+        {
+          "food": "bokchoy",
+          "grams": 150
+        },
+        {
+          "food": "oil",
+          "grams": 10
+        }
+      ],
+      "notes": "主食和菜分开点；少油，酱汁另放。按实际份量修改记录，油量只是模型参考。"
+    },
+    {
+      "id": "meal-13",
+      "name": "牛肉米饭蔬菜套餐",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "items": [
+        {
+          "food": "rice",
+          "grams": 180
+        },
+        {
+          "food": "beef",
+          "grams": 100
+        },
+        {
+          "food": "broccoli",
+          "grams": 150
+        },
+        {
+          "food": "bokchoy",
+          "grams": 150
+        },
+        {
+          "food": "oil",
+          "grams": 10
+        }
+      ],
+      "notes": "主食和菜分开点；少油，酱汁另放。按实际份量修改记录，油量只是模型参考。"
+    },
+    {
+      "id": "meal-14",
+      "name": "蒸鱼米饭蔬菜套餐",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "items": [
+        {
+          "food": "rice",
+          "grams": 180
+        },
+        {
+          "food": "cod",
+          "grams": 100
+        },
+        {
+          "food": "broccoli",
+          "grams": 150
+        },
+        {
+          "food": "bokchoy",
+          "grams": 150
+        },
+        {
+          "food": "oil",
+          "grams": 10
+        }
+      ],
+      "notes": "主食和菜分开点；少油，酱汁另放。按实际份量修改记录，油量只是模型参考。"
+    },
+    {
+      "id": "meal-15",
+      "name": "虾仁米饭蔬菜套餐",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "items": [
+        {
+          "food": "rice",
+          "grams": 180
+        },
+        {
+          "food": "shrimp",
+          "grams": 100
+        },
+        {
+          "food": "broccoli",
+          "grams": 150
+        },
+        {
+          "food": "bokchoy",
+          "grams": 150
+        },
+        {
+          "food": "oil",
+          "grams": 10
+        }
+      ],
+      "notes": "主食和菜分开点；少油，酱汁另放。按实际份量修改记录，油量只是模型参考。"
+    },
+    {
+      "id": "meal-16",
+      "name": "三文鱼米饭蔬菜套餐",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "items": [
+        {
+          "food": "rice",
+          "grams": 180
+        },
+        {
+          "food": "salmon",
+          "grams": 100
+        },
+        {
+          "food": "broccoli",
+          "grams": 150
+        },
+        {
+          "food": "bokchoy",
+          "grams": 150
+        },
+        {
+          "food": "oil",
+          "grams": 10
+        }
+      ],
+      "notes": "主食和菜分开点；少油，酱汁另放。按实际份量修改记录，油量只是模型参考。"
+    },
+    {
+      "id": "meal-17",
+      "name": "豆腐米饭蔬菜套餐",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "items": [
+        {
+          "food": "rice",
+          "grams": 180
+        },
+        {
+          "food": "tofu",
+          "grams": 150
+        },
+        {
+          "food": "broccoli",
+          "grams": 150
+        },
+        {
+          "food": "bokchoy",
+          "grams": 150
+        },
+        {
+          "food": "oil",
+          "grams": 10
+        }
+      ],
+      "notes": "主食和菜分开点；少油，酱汁另放。按实际份量修改记录，油量只是模型参考。"
+    },
+    {
+      "id": "meal-18",
+      "name": "鸡肉清汤面",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "items": [
+        {
+          "food": "noodles",
+          "grams": 230
+        },
+        {
+          "food": "chicken",
+          "grams": 100
+        },
+        {
+          "food": "bokchoy",
+          "grams": 150
+        },
+        {
+          "food": "mushroom",
+          "grams": 80
+        },
+        {
+          "food": "oil",
+          "grams": 5
+        }
+      ],
+      "notes": "清汤、少油；汤和酱汁不全部喝完。面条使用熟意面数据近似，餐馆实际值会变化。"
+    },
+    {
+      "id": "meal-19",
+      "name": "牛肉清汤面",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "items": [
+        {
+          "food": "noodles",
+          "grams": 230
+        },
+        {
+          "food": "beef",
+          "grams": 100
+        },
+        {
+          "food": "bokchoy",
+          "grams": 150
+        },
+        {
+          "food": "mushroom",
+          "grams": 80
+        },
+        {
+          "food": "oil",
+          "grams": 5
+        }
+      ],
+      "notes": "清汤、少油；汤和酱汁不全部喝完。面条使用熟意面数据近似，餐馆实际值会变化。"
+    },
+    {
+      "id": "meal-20",
+      "name": "豆腐清汤面",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "items": [
+        {
+          "food": "noodles",
+          "grams": 230
+        },
+        {
+          "food": "tofu",
+          "grams": 150
+        },
+        {
+          "food": "bokchoy",
+          "grams": 150
+        },
+        {
+          "food": "mushroom",
+          "grams": 80
+        },
+        {
+          "food": "oil",
+          "grams": 5
+        }
+      ],
+      "notes": "清汤、少油；汤和酱汁不全部喝完。面条使用熟意面数据近似，餐馆实际值会变化。"
+    },
+    {
+      "id": "meal-21",
+      "name": "水饺蔬菜组合",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "items": [
+        {
+          "food": "dumpling",
+          "grams": 250
+        },
+        {
+          "food": "cucumber",
+          "grams": 150
+        },
+        {
+          "food": "bokchoy",
+          "grams": 150
+        }
+      ],
+      "notes": "主食和菜分开点；少油，酱汁另放。按实际份量修改记录，油量只是模型参考。"
+    },
+    {
+      "id": "meal-22",
+      "name": "鸡肉轻食碗",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "items": [
+        {
+          "food": "brownrice",
+          "grams": 180
+        },
+        {
+          "food": "chicken",
+          "grams": 100
+        },
+        {
+          "food": "lettuce",
+          "grams": 100
+        },
+        {
+          "food": "tomato",
+          "grams": 150
+        },
+        {
+          "food": "olive",
+          "grams": 10
+        }
+      ],
+      "notes": "主食和菜分开点；少油，酱汁另放。按实际份量修改记录，油量只是模型参考。"
+    },
+    {
+      "id": "meal-23",
+      "name": "三文鱼藜麦碗",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "items": [
+        {
+          "food": "quinoa",
+          "grams": 180
+        },
+        {
+          "food": "salmon",
+          "grams": 100
+        },
+        {
+          "food": "lettuce",
+          "grams": 100
+        },
+        {
+          "food": "cucumber",
+          "grams": 100
+        },
+        {
+          "food": "olive",
+          "grams": 5
+        }
+      ],
+      "notes": "主食和菜分开点；少油，酱汁另放。按实际份量修改记录，油量只是模型参考。"
+    },
+    {
+      "id": "meal-24",
+      "name": "豆腐毛豆轻食",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "items": [
+        {
+          "food": "brownrice",
+          "grams": 180
+        },
+        {
+          "food": "tofu",
+          "grams": 150
+        },
+        {
+          "food": "edamame",
+          "grams": 80
+        },
+        {
+          "food": "broccoli",
+          "grams": 200
+        },
+        {
+          "food": "oil",
+          "grams": 5
+        }
+      ],
+      "notes": "主食和菜分开点；少油，酱汁另放。按实际份量修改记录，油量只是模型参考。"
+    },
+    {
+      "id": "meal-25",
+      "name": "麻辣烫米粉豆腐虾",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "items": [
+        {
+          "food": "rice_noodle",
+          "grams": 220
+        },
+        {
+          "food": "tofu",
+          "grams": 150
+        },
+        {
+          "food": "shrimp",
+          "grams": 80
+        },
+        {
+          "food": "bokchoy",
+          "grams": 200
+        },
+        {
+          "food": "mushroom",
+          "grams": 80
+        },
+        {
+          "food": "oil",
+          "grams": 10
+        }
+      ],
+      "notes": "主食和菜分开点；少油，酱汁另放。按实际份量修改记录，油量只是模型参考。"
+    },
+    {
+      "id": "meal-26",
+      "name": "麻辣烫面条鸡蛋",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "items": [
+        {
+          "food": "noodles",
+          "grams": 200
+        },
+        {
+          "food": "egg",
+          "grams": 100
+        },
+        {
+          "food": "tofu",
+          "grams": 100
+        },
+        {
+          "food": "spinach",
+          "grams": 150
+        },
+        {
+          "food": "cabbage",
+          "grams": 150
+        },
+        {
+          "food": "oil",
+          "grams": 10
+        }
+      ],
+      "notes": "主食和菜分开点；少油，酱汁另放。按实际份量修改记录，油量只是模型参考。"
+    },
+    {
+      "id": "meal-27",
+      "name": "番茄鸡蛋饭",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "items": [
+        {
+          "food": "rice",
+          "grams": 180
+        },
+        {
+          "food": "tomato",
+          "grams": 200
+        },
+        {
+          "food": "egg",
+          "grams": 100
+        },
+        {
+          "food": "broccoli",
+          "grams": 150
+        },
+        {
+          "food": "oil",
+          "grams": 10
+        }
+      ],
+      "notes": "主食和菜分开点；少油，酱汁另放。按实际份量修改记录，油量只是模型参考。"
+    },
+    {
+      "id": "meal-28",
+      "name": "牛肉土豆套餐",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "items": [
+        {
+          "food": "potato",
+          "grams": 200
+        },
+        {
+          "food": "beef",
+          "grams": 120
+        },
+        {
+          "food": "carrot",
+          "grams": 100
+        },
+        {
+          "food": "greenbean",
+          "grams": 150
+        },
+        {
+          "food": "oil",
+          "grams": 10
+        }
+      ],
+      "notes": "主食和菜分开点；少油，酱汁另放。按实际份量修改记录，油量只是模型参考。"
+    },
+    {
+      "id": "meal-29",
+      "name": "豆腐茄子杂粮饭",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "items": [
+        {
+          "food": "brownrice",
+          "grams": 180
+        },
+        {
+          "food": "tofu",
+          "grams": 200
+        },
+        {
+          "food": "eggplant",
+          "grams": 150
+        },
+        {
+          "food": "bokchoy",
+          "grams": 150
+        },
+        {
+          "food": "oil",
+          "grams": 10
+        }
+      ],
+      "notes": "主食和菜分开点；少油，酱汁另放。按实际份量修改记录，油量只是模型参考。"
+    },
+    {
+      "id": "meal-30",
+      "name": "鸡肉玉米南瓜餐",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "items": [
+        {
+          "food": "corn",
+          "grams": 180
+        },
+        {
+          "food": "chicken",
+          "grams": 120
+        },
+        {
+          "food": "pumpkin",
+          "grams": 150
+        },
+        {
+          "food": "broccoli",
+          "grams": 150
+        },
+        {
+          "food": "oil",
+          "grams": 10
+        }
+      ],
+      "notes": "主食和菜分开点；少油，酱汁另放。按实际份量修改记录，油量只是模型参考。"
+    },
+    {
+      "id": "meal-31",
+      "name": "鹰嘴豆素食碗",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "items": [
+        {
+          "food": "quinoa",
+          "grams": 150
+        },
+        {
+          "food": "chickpea",
+          "grams": 150
+        },
+        {
+          "food": "tomato",
+          "grams": 150
+        },
+        {
+          "food": "cucumber",
+          "grams": 150
+        },
+        {
+          "food": "olive",
+          "grams": 10
+        }
+      ],
+      "notes": "主食和菜分开点；少油，酱汁另放。按实际份量修改记录，油量只是模型参考。"
+    },
+    {
+      "id": "meal-32",
+      "name": "鱼肉小米蔬菜餐",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "items": [
+        {
+          "food": "millet",
+          "grams": 180
+        },
+        {
+          "food": "cod",
+          "grams": 130
+        },
+        {
+          "food": "cauliflower",
+          "grams": 150
+        },
+        {
+          "food": "spinach",
+          "grams": 150
+        },
+        {
+          "food": "oil",
+          "grams": 10
+        }
+      ],
+      "notes": "主食和菜分开点；少油，酱汁另放。按实际份量修改记录，油量只是模型参考。"
+    },
+    {
+      "id": "meal-33",
+      "name": "虾仁西葫芦饭",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "items": [
+        {
+          "food": "rice",
+          "grams": 180
+        },
+        {
+          "food": "shrimp",
+          "grams": 120
+        },
+        {
+          "food": "zucchini",
+          "grams": 200
+        },
+        {
+          "food": "carrot",
+          "grams": 100
+        },
+        {
+          "food": "oil",
+          "grams": 10
+        }
+      ],
+      "notes": "主食和菜分开点；少油，酱汁另放。按实际份量修改记录，油量只是模型参考。"
+    },
+    {
+      "id": "meal-34",
+      "name": "瘦肉菜花饭",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "items": [
+        {
+          "food": "rice",
+          "grams": 180
+        },
+        {
+          "food": "pork",
+          "grams": 100
+        },
+        {
+          "food": "cauliflower",
+          "grams": 200
+        },
+        {
+          "food": "cabbage",
+          "grams": 150
+        },
+        {
+          "food": "oil",
+          "grams": 10
+        }
+      ],
+      "notes": "主食和菜分开点；少油，酱汁另放。按实际份量修改记录，油量只是模型参考。"
+    },
+    {
+      "id": "meal-35",
+      "name": "鸡肉红薯沙拉",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "items": [
+        {
+          "food": "sweetpotato",
+          "grams": 220
+        },
+        {
+          "food": "chicken",
+          "grams": 120
+        },
+        {
+          "food": "lettuce",
+          "grams": 100
+        },
+        {
+          "food": "tomato",
+          "grams": 150
+        },
+        {
+          "food": "olive",
+          "grams": 10
+        }
+      ],
+      "notes": "主食和菜分开点；少油，酱汁另放。按实际份量修改记录，油量只是模型参考。"
+    },
+    {
+      "id": "meal-36",
+      "name": "扁豆糙米套餐",
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "items": [
+        {
+          "food": "brownrice",
+          "grams": 180
+        },
+        {
+          "food": "lentil",
+          "grams": 150
+        },
+        {
+          "food": "tofu",
+          "grams": 100
+        },
+        {
+          "food": "bokchoy",
+          "grams": 200
+        },
+        {
+          "food": "oil",
+          "grams": 10
+        }
+      ],
+      "notes": "主食和菜分开点；少油，酱汁另放。按实际份量修改记录，油量只是模型参考。"
+    }
+  ]
+}

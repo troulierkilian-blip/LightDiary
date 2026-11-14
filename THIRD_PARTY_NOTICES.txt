@@ -1,0 +1,27 @@
+LightDiary / 轻盈日记 1.2.0
+
+Uses Python, SQLite, PySide6 / Qt and PyInstaller.
+Python: Python Software Foundation License; https://docs.python.org/3/license.html
+SQLite: public domain; https://sqlite.org/copyright.html
+PySide6 / Qt: LGPLv3; https://doc.qt.io/qtforpython-6/licenses.html
+Qt source and LGPL license: https://code.qt.io/ ; https://www.gnu.org/licenses/lgpl-3.0.html
+PySide source: https://code.qt.io/cgit/pyside/pyside-setup.git/
+PyInstaller: GPL with exception allowing distribution of bundled applications;
+https://pyinstaller.org/en/stable/license.html
+
+The application source and build script accompany this public release.
+The author's own code is published for viewing; no additional open-source
+license is granted for that code. Third-party licenses remain unaffected.
+Copies of the Python, LGPLv3, GPLv3 and PyInstaller license texts are in licenses/.
+Qt/PySide version: 6.10.1. Corresponding source archives:
+https://download.qt.io/official_releases/qt/6.10/6.10.1/single/
+https://download.qt.io/official_releases/QtForPython/pyside6/PySide6-6.10.1-src/
+Build dependencies are pinned in requirements.txt. Qt libraries are bundled as DLLs.
+
+Food nutrition data: USDA FoodData Central, SR Legacy April 2018 dataset,
+https://fdc.nal.usda.gov/ ; CC0 1.0 / public domain.
+Original FDC IDs and English descriptions are included in lightdiary/data/catalog.json.
+Chinese labels and meal/portion models are application-authored estimates, not USDA
+certification and not measured restaurant values. The generation script is
+tools/build_catalog.py. Dataset archive:
+https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip
