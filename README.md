@@ -39,3 +39,11 @@ powershell -ExecutionPolicy Bypass -File .\build.ps1
 ## 使用与许可
 
 本项目公开供查看和下载。自有代码未采用 MIT 或其他开源许可证；公开仓库本身不额外授予修改、再分发或商用自有代码的许可。第三方组件和公开食物数据仍适用其各自的条款，详见[第三方声明](THIRD_PARTY_NOTICES.txt)和[许可文本](licenses/)。
+
+## 支持项目
+
+如果「轻盈日记」帮到了你，欢迎通过支付宝或微信扫码打赏。感谢你的支持！
+
+| 支付宝 | 微信 |
+| :---: | :---: |
+| <img src="assets/sponsors/alipay.jpg" alt="支付宝收款码" width="220"> | <img src="assets/sponsors/wechat.jpg" alt="微信收款码" width="220"> |
