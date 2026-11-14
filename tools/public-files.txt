@@ -1,10 +1,12 @@
 .gitattributes
 .gitignore
 README.md
+README.en.md
 THIRD_PARTY_NOTICES.txt
 assets/app.ico
 assets/check.svg
 build.ps1
+docs/images/actual-lunch.png
 docs/images/ai.png
 docs/images/meals.png
 licenses/GPL-3.0.txt
